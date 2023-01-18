@@ -1,0 +1,60 @@
+.card-container{
+width: 200px;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    scale: 0.98;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 9px 20px 0px rgba(0,0,0,0.44);
+-moz-box-shadow: 10px 9px 20px 0px rgba(0,0,0,0.44);
+box-shadow: 10px 9px 20px 0px rgba(0,0,0,0.44);
+}
+.card-container:hover{
+    scale: 1;
+}
+.card-img{
+   height: 200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     position: relative;
+}
+.card-img img{
+    height: auto;
+    width: 100px;
+}
+.product-category-tag{
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+   background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+
+    right: 0;
+    font-size: 11px;
+    padding: 5px 10px;
+    overflow: auto;
+    border-radius: 30px;
+}
+.product-name{
+       font-size: 15px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.description{
+    font-size: 12px;
+}
+.read-more p{
+    background: #12c2e9;
+background-image: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+background-image: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    cursor: pointer;
+    color: transparent;
+    background-clip: text;
+    font-weight: 500;
+}
