@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './pie.css'
 import { Pie } from 'react-chartjs-2';
